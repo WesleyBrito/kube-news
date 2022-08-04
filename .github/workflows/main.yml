@@ -25,6 +25,6 @@ jobs:
           push: true
           tags: |
             wesleybrito/kube-news:latest
-            wesleybrito/kube-news:${{github.run_number}}
+            wesleybrito/kube-news: v${{github.run_number}}
         
         
