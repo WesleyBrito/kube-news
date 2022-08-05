@@ -5,7 +5,6 @@
 # yarn-debug.log*
 # yarn-error.log*
 # lerna-debug.log*
-iac/kube_config.yaml
 # # Diagnostic reports (https://nodejs.org/api/report.html)
 # report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -104,3 +103,5 @@ node_modules/
 # .tern-port
 
 *.Identifier
+iac/terraform.tfvars
+iac/kube_config.yaml
